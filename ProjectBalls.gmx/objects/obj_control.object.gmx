@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>pos_x = 96;
 pos_y = 0;
-max_speed = 20;
+max_speed = 30;
 
 img_scaling = 0.01;
 

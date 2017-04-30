@@ -1,15 +1,12 @@
 if(device_mouse_check_button(0, mb_left)){
     if(shotCD < 0){
         instance_create(obj_control.x, obj_control.y, obj_playerBullet);
-        //timeline_index = anim_shoot;
-        //timeline_position = 0;
-        //timeline_running = true;
         shotCD = 30;
     }else{
-        if(shotCD > 15){
+        if(shotCD > 25){
             image_xscale -= img_scaling;
             image_yscale -= img_scaling;
-        }else{
+        }else if(shotCD >= 20){
             image_xscale += img_scaling;
             image_yscale += img_scaling;
         }

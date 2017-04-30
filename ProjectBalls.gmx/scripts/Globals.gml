@@ -1,2 +1,2 @@
-//global.pos_x = 32;
-//global.pos_y = 0;
+global.maxLives = 4;
+global.liveCount = 4;

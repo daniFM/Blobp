@@ -11,6 +11,7 @@
     <sprite>sprites\spr_basicEnemy</sprite>
     <sprite>sprites\spr_mainMenu</sprite>
     <sprite>sprites\spr_buttonPlay_0</sprite>
+    <sprite>sprites\spr_buttonExit_0</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -21,14 +22,19 @@
     <script>scripts\Globals.gml</script>
     <script>scripts\Shoot.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_points</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\obj_control</object>
     <object>objects\GameManager</object>
+    <object>objects\LevelManager_00</object>
+    <object>objects\obj_control</object>
     <object>objects\obj_playerBullet</object>
     <object>objects\obj_basicEnemy1</object>
     <objects name="UI">
       <object>objects\obj_mainMenu</object>
       <object>objects\obj_buttonPlay</object>
+      <object>objects\obj_buttonExit</object>
     </objects>
   </objects>
   <timelines name="timelines">

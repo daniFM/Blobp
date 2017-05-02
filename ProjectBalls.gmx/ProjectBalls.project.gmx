@@ -9,6 +9,7 @@
     <sprite>sprites\spr_control</sprite>
     <sprite>sprites\spr_playerBullet</sprite>
     <sprite>sprites\spr_basicEnemy</sprite>
+    <sprite>sprites\spr_basicEnemy2</sprite>
     <sprite>sprites\spr_mainMenu</sprite>
     <sprite>sprites\spr_yourScore</sprite>
     <sprite>sprites\spr_buttonPlay_0</sprite>
@@ -44,6 +45,7 @@
     <object>objects\obj_control</object>
     <object>objects\obj_playerBullet</object>
     <object>objects\obj_basicEnemy1</object>
+    <object>objects\obj_basicEnemy2</object>
     <object>objects\obj_turret1</object>
     <object>objects\obj_turret1Bullet</object>
   </objects>

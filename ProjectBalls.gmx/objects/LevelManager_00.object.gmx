@@ -139,16 +139,16 @@ if(device_mouse_check_button_released(0, mb_left)){
 
 // End Game
 if(global.liveCount &lt;= 0){
-    room_goto(MainMenu);
+    room_goto(Scores);
 }
 
-if(global.points &gt;= 1000){
+/*if(global.points &gt;= 1000){
     if(room_next(room) != -1){
         room_goto_next();
     }else{
         room_goto(MainMenu);
     }
-}
+}*/
 </string>
           </argument>
         </arguments>

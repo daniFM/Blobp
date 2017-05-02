@@ -10,9 +10,12 @@
     <sprite>sprites\spr_playerBullet</sprite>
     <sprite>sprites\spr_basicEnemy</sprite>
     <sprite>sprites\spr_mainMenu</sprite>
+    <sprite>sprites\spr_yourScore</sprite>
     <sprite>sprites\spr_buttonPlay_0</sprite>
     <sprite>sprites\spr_buttonExit_0</sprite>
+    <sprite>sprites\spr_buttonBack_0</sprite>
     <sprite>sprites\spr_turret1</sprite>
+    <sprite>sprites\spr_plain</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -32,6 +35,9 @@
       <object>objects\obj_mainMenu</object>
       <object>objects\obj_buttonPlay</object>
       <object>objects\obj_buttonExit</object>
+      <object>objects\obj_transition</object>
+      <object>objects\obj_printScore</object>
+      <object>objects\obj_buttonBack</object>
     </objects>
     <object>objects\GameManager</object>
     <object>objects\LevelManager_00</object>
@@ -47,6 +53,7 @@
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\Level_01</room>
+    <room>rooms\Scores</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

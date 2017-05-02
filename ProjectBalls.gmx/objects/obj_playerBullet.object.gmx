@@ -52,7 +52,6 @@
           <argument>
             <kind>1</kind>
             <string>instance_destroy();
-global.points += 50;
 </string>
           </argument>
         </arguments>

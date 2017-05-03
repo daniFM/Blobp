@@ -251,10 +251,10 @@ enemy2CD = 240;
           <argument>
             <kind>1</kind>
             <string>// Turret placement
-if(device_mouse_check_button_released(0, mb_left)){
-    if(device_mouse_x(0) &gt; 192){
+if(device_mouse_check_button_released(1, mb_left)){
+    if(device_mouse_x(1) &gt; 256){
         if(global.points &gt;= global.turret1Price){
-            instance_create(device_mouse_x(0), device_mouse_y(0), obj_turret1);
+            instance_create(device_mouse_x(1), device_mouse_y(1), obj_turret1);
             global.points -= global.turret1Price;
         }
     }

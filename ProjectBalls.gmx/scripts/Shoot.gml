@@ -25,12 +25,14 @@ if(!shoot){
     shotCD--;
     if(shotCD <= 0){
         shoot = true;
+        image_xscale = 1;
+        image_yscale = 1;
     }
 }
 if(shotCD > shotMaxCD - 5){
     image_xscale -= img_scaling;
     image_yscale -= img_scaling;
-}else if(shotCD >= shotMaxCD - 10){
+}else if(shotCD > shotMaxCD - 10){
     image_xscale += img_scaling;
     image_yscale += img_scaling;
 }

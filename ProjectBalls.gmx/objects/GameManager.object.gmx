@@ -87,10 +87,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_black);
-draw_set_font(fnt_points);
-draw_text(32, 32, string(obj_transition.image_alpha));
-draw_set_colour(c_white);
+            <string>/// Draw event mult-touch teste
+for (var i = 0; i &lt; 4;i++) { // 4 touch
+    if device_mouse_check_button(i,mb_left) {
+        var xx = device_mouse_x(i);
+        var yy = device_mouse_y(i);
+        draw_circle(xx,yy,90,1);
+    }
+}
 </string>
           </argument>
         </arguments>

@@ -19,6 +19,7 @@
     <sprite>sprites\spr_turret1</sprite>
     <sprite>sprites\spr_plain</sprite>
     <sprite>sprites\spr_howToPlay</sprite>
+    <sprite>sprites\spr_button1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -29,20 +30,23 @@
     <script>scripts\Globals.gml</script>
     <script>scripts\Shoot.gml</script>
     <script>scripts\EnemyKilled.gml</script>
+    <script>scripts\PrintText.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_points</font>
+    <font>fonts\fnt_h1</font>
+    <font>fonts\fnt_h2</font>
   </fonts>
   <objects name="objects">
     <objects name="UI">
       <object>objects\obj_mainMenu</object>
       <object>objects\obj_buttonPlay</object>
+      <object>objects\obj_buttonHTP</object>
       <object>objects\obj_buttonExit</object>
       <object>objects\obj_transition</object>
       <object>objects\obj_printScore</object>
       <object>objects\obj_buttonBack</object>
       <object>objects\obj_howToPlay</object>
-      <object>objects\obj_buttonHTP</object>
     </objects>
     <object>objects\GameManager</object>
     <object>objects\LevelManager_00</object>

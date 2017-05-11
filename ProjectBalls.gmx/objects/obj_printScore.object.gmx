@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(256, 64, "Y O U R  S C O R E");
+            <string>draw_set_colour(c_white);
+draw_set_font(fnt_h2);
+draw_set_halign(fa_left);
+
+draw_text(256, 64, "Y O U R  S C O R E");
 
 draw_text(256, 256, global.points);
 

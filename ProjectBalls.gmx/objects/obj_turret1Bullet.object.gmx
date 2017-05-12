@@ -8,6 +8,31 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Local variables
+
+temp = 120;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -30,13 +55,13 @@
 var inst;
 var bulletSpeed = 15;
 
-if(instance_nearest(x, y, obj_basicEnemy1) != noone){
-    inst = instance_nearest(x, y, obj_basicEnemy1);
-    move_towards_point(inst.x, inst.y, bulletSpeed);
+if(temp &gt;= 0){
+    if(instance_nearest(x, y, obj_basicEnemy1) != noone){
+        inst = instance_nearest(x, y, obj_basicEnemy1);
+        move_towards_point(inst.x, inst.y, bulletSpeed);
+    }
+    temp--;
 }
-
-//targetX = instance_nearest(x, y, obj_basicEnemy1).x;
-//targetY = instance_nearest(x, y, obj_basicEnemy1).y;
 </string>
           </argument>
         </arguments>

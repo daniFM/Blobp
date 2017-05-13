@@ -20,6 +20,7 @@
     <sprite>sprites\spr_plain</sprite>
     <sprite>sprites\spr_howToPlay</sprite>
     <sprite>sprites\spr_button1</sprite>
+    <sprite>sprites\spr_basicEnemy3</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -54,10 +55,11 @@
     <object>objects\LevelManager_00</object>
     <object>objects\obj_control</object>
     <object>objects\obj_playerBullet</object>
-    <object>objects\obj_basicEnemy1</object>
-    <object>objects\obj_basicEnemy2</object>
     <object>objects\obj_turret1</object>
     <object>objects\obj_turret1Bullet</object>
+    <object>objects\obj_basicEnemy1</object>
+    <object>objects\obj_basicEnemy2</object>
+    <object>objects\obj_basicEnemy3</object>
     <object>objects\obj_tmp</object>
   </objects>
   <timelines name="timelines">

@@ -7,6 +7,10 @@ switch(argument0){
         instance_destroy();
         global.points += 100;
         break;
+    case 3:
+        instance_destroy();
+        global.points += 150;
+        break;
     default:
         break;
 }

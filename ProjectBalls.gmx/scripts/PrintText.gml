@@ -35,7 +35,7 @@ switch(argument1){
 }
 
 if(argument0 == "points"){
-    draw_text(argument2, argument3, "Health: " + string(global.liveCount) + "  Points: " + string(global.points));
+    draw_text(argument2, argument3, "Health: " + string(global.liveCount) + "  Points: " + string(global.points) + " HIGH SCORE: " + string(global.highScore));
 }else{
     draw_text(argument2, argument3, argument4);
 }

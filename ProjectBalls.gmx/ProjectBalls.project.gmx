@@ -31,6 +31,8 @@
     <script>scripts\Shoot.gml</script>
     <script>scripts\EnemyKilled.gml</script>
     <script>scripts\PrintText.gml</script>
+    <script>scripts\LoadGame.gml</script>
+    <script>scripts\SaveGame.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_points</font>
@@ -56,6 +58,7 @@
     <object>objects\obj_basicEnemy2</object>
     <object>objects\obj_turret1</object>
     <object>objects\obj_turret1Bullet</object>
+    <object>objects\obj_tmp</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\anim_shoot</timeline>

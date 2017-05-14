@@ -398,28 +398,23 @@ enemy3CD = 600;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Turret placement
-if(device_mouse_check_button_released(1, mb_left)){
-    if(device_mouse_x(1) &gt; 256){
-        if(global.points &gt;= global.turret1Price){
-            instance_create(device_mouse_x(1), device_mouse_y(1), obj_turret1);
-            global.points -= global.turret1Price;
+            <string>/// Turret placement and End Game
+for(var i = 0; i &lt;= 1; i++){
+    if(device_mouse_check_button_released(i, mb_left)){
+        if(device_mouse_x(i) &gt; 256){
+            if(global.points &gt;= global.turret1Price){
+                instance_create(device_mouse_x(i), device_mouse_y(i), obj_turret1);
+                global.points -= global.turret1Price;
+            }
         }
     }
 }
 
-// End Game
+
+/// End Game
 if(global.liveCount &lt;= 0){
     room_goto(Scores);
 }
-
-/*if(global.points &gt;= 1000){
-    if(room_next(room) != -1){
-        room_goto_next();
-    }else{
-        room_goto(MainMenu);
-    }
-}*/
 </string>
           </argument>
         </arguments>
